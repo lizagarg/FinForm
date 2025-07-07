@@ -63,18 +63,15 @@ def extract_aadhaar_info(front_image_path, back_image_path=None):
 
     name = re.sub(r'[^A-Za-z ]+', '', name).strip()
 
-    # Back side parsing
-    father_name = address = ""
+    # Back side parsing (only for father name now)
+    father_name = ""
     if back_image_path:
         back_text = extract_text(back_image_path)
-        address_lines = []
-        found_address = False
 
         for line in back_text.split('\n'):
             line = line.strip()
             if not line:
                 continue
-            line_lower = line.lower()
 
             # Extract and skip full line with D/O, C/O, S/O
             if re.search(r'(C/O|S/O|D/O)', line, re.IGNORECASE):
@@ -82,29 +79,14 @@ def extract_aadhaar_info(front_image_path, back_image_path=None):
                     match = re.search(r'(?:C/O|S/O|D/O)\s*[:\-]?\s*([A-Za-z .]+)', line, re.IGNORECASE)
                     if match:
                         father_name = match.group(1).strip()
-                continue  # Skip full line
-
-            if "address" in line_lower or "पता" in line_lower:
-                found_address = True
                 continue
-
-            if found_address:
-                if any(x in line_lower for x in ["aadhaar", "uidai", "gov", "identity", "pehchan", "vid"]):
-                    break
-                if len(line) >= 4:
-                    address_lines.append(line)
-
-        address = " ".join(address_lines)
-        address = re.sub(r'[^A-Za-z0-9,/\-\s]', '', address)
-        address = re.sub(r'\s+', ' ', address).strip()
 
     return {
         "name": name,
         "father_name": father_name,
         "dob": dob,
         "gender": gender,
-        "aadhaar": aadhaar,
-        "address": address
+        "aadhaar": aadhaar
     }
 
 # Run the script
