@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5cf2734c-bb3a-4194-80e2-b3317a37f668" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aadhaar_ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/aadhaar_ocr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aadhaar_profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/aadhaar_profile.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751892737198</updated>
-      <workItem from="1751892738042" duration="12550000" />
+      <workItem from="1751892738042" duration="16916000" />
     </task>
     <servers />
   </component>
@@ -112,7 +110,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/aadhaar_ocr_project$aadhaar_ocr_2.coverage" NAME="aadhaar_ocr_2 Coverage Results" MODIFIED="1751907020071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/aadhaar_ocr_project$aadhaar_ocr.coverage" NAME="aadhaar_ocr Coverage Results" MODIFIED="1751905544801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aadhaar_ocr_project$aadhaar_ocr_2.coverage" NAME="aadhaar_ocr_2 Coverage Results" MODIFIED="1751907149089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aadhaar_ocr_project$aadhaar_ocr.coverage" NAME="aadhaar_ocr Coverage Results" MODIFIED="1751907185355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
