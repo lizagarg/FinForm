@@ -1,0 +1,11 @@
+{
+  "form_name": "PMAY (Pradhan Mantri Awas Yojana)",
+  "fields": [
+    "Applicant Name",
+    "Date of Birth",
+    "Aadhaar Number",
+    "Full Address",
+    "Contact Number",
+    "Annual Family Income"
+  ]
+}

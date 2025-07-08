@@ -1,0 +1,4 @@
+streamlit
+
+#Add other libraries like 'requests' if you call external APIs
+#e.g., requests

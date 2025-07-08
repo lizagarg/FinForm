@@ -1,0 +1,11 @@
+{
+  "form_name": "Jan Dhan Yojana",
+  "fields": [
+    "Full Name",
+    "Residential Address",
+    "Aadhaar Card No.",
+    "Mobile Number",
+    "Occupation",
+    "PAN Card Number"
+  ]
+}
