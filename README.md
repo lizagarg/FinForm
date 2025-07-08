@@ -1,0 +1,38 @@
+# FinForm – Voice and Image-Based Form Filling for Rural Women
+
+**FinForm** is a lightweight assistive app designed to help rural women independently complete official financial forms without the need for reading, typing, or digital expertise.
+
+## 💡 Problem
+
+Many rural women face barriers when filling out official forms due to:
+- Language mismatches
+- Complex or unfamiliar terminology
+- Low digital literacy
+- Dependence on others to read, write, or interpret forms
+
+These issues often lead to delays, errors, and exclusion from critical services such as banking, insurance, or welfare schemes.
+
+## 🌟 Solution
+
+FinForm allows women to fill forms using **voice input** and **images**, with no typing or reading required.
+
+### Key Features:
+- 🎤 **Voice Input** in local languages using speech-to-text
+- 📷 **Image Upload** of documents like Aadhaar to auto-extract data via OCR
+- 🧠 **Semantic Matching** (using BERT) to map user-provided info to form fields like _"Guardian Name"_ or _"Parent"_
+- 🌐 Offline-first and mobile-friendly for rural use cases
+
+## 🎯 Impact
+
+- Empowers rural women to complete financial forms independently and confidently
+- Reduces errors, miscommunication, and reliance on middlemen
+- Can be extended to healthcare, insurance, school admissions, and other services
+
+## 🚀 Status
+
+Currently, the app focuses on:
+- Extracting Aadhaar data using OCR
+- Accepting voice input for personal details
+- Matching input to form labels using semantic models
+
+
